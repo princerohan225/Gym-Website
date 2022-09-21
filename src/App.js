@@ -4,7 +4,7 @@ import Navbar from './component/navbar';
 import Text from './component/text'
 import Contact from './component/contact';
 import Packages from './component/packages';
-import { BrowserRouter as Router, Routes, Route, HashRouter } from "react-router-dom";
+import { Routes, Route} from "react-router-dom";
 import Facilities from './component/facilities';
 
 
@@ -30,8 +30,8 @@ function App() {
   return (
     <div className="App">
 
-      <Router>
-        <HashRouter>
+      
+        
           <Navbar title={'The gym'} HomeText={'Home'} ContactText={'Contact'} PackagesText={'Packages'} FacilitiesText={'Facilities'} AboutText={'About'} modetext={ModeText} mode={Mode} togglemode={togglemode} />
 
           <Routes>
@@ -42,8 +42,8 @@ function App() {
             <Route exact path='/packages' element={<Packages />} />
             <Route exact path='/facilities' element={<Facilities />} />
           </Routes>
-        </HashRouter>
-      </Router>
+        
+      
 
       {/* <Navbar title={'The gym'} HomeText={'Home'} ContactText={'Contact'} PackagesText={'Packages'} FacilitiesText={'Facilities'} AboutText={'About'} modetext={ModeText} mode={Mode} togglemode={togglemode}/>
 
