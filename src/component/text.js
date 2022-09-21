@@ -22,6 +22,8 @@ function Text() {
 
             <div className="text-container2">
                 <table className="table1">
+                <tbody>
+
                     <tr>
                         <td>
                             <h4 className="name1">Rohan (Gym Trainer)</h4>
@@ -30,10 +32,12 @@ function Text() {
                         </td>
                         <td><img className="pic1" src={require(".//images/8.jpg")} alt="" /></td>
                     </tr>
+                </tbody>
                 </table>
                 <hr className="line2" />
 
                 <table className="table2">
+                <tbody>
                     <tr>
                         <td><img className="pic2" src={require(".//images/amrit.jpg")} alt="" /></td>
                         <td>
@@ -47,10 +51,12 @@ function Text() {
                             </div>
                         </td>
                     </tr>
+                    </tbody>
                 </table>
                 <hr className="line3" />
 
                 <table className="table3">
+                <tbody>
                     <tr>
                         <td>
                             <h4 className="name3">Sahil Marwaha (Gym Trainer)</h4>
@@ -59,6 +65,7 @@ function Text() {
                         </td>
                         <td><img className="pic3" src={require(".//images/sahil.jpg")} alt="" /></td>
                     </tr>
+                    </tbody>
                 </table>
             </div>
 

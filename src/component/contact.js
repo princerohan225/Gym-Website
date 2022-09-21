@@ -7,12 +7,12 @@ function Contact(){
         <>
             <div className="contact_container2">
                 <form>
-                    <label for="name">Name</label>
+                    <label htmlFor="name">Name</label>
                     <input type="text" name="name" placeholder="Your Name"/>
-                    <label for="email">Email</label>
+                    <label htmlFor="email">Email</label>
                     <input type="email" name="email" placeholder="Your Email"/>
 
-                    <label for="country">Country</label>
+                    <label htmlFor="country">Country</label>
                     <select name="country" id="country">
                         <option value="australia">India</option>
                         <option value="canada">Canada</option>
@@ -21,8 +21,8 @@ function Contact(){
                         <option value="germany">Germany</option>
                      </select>
 
-                    <label for="subject">Subject</label>
-                    <textarea id="subjext" Name="subject" cols="30" rows="10" placeholder="Write Something..."></textarea>
+                    <label htmlFor="subject">Subject</label>
+                    <textarea id="subjext" name="subject" cols="30" rows="10" placeholder="Write Something..."></textarea>
 
                     <input type="submit" name="submit" value="Submit"/>
                 </form>
