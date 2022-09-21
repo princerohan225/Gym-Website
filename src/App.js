@@ -30,7 +30,7 @@ function App() {
   return (
     <div className="App">
 
-      {/* <Router>
+      <Router>
         <Navbar title={'The gym'} HomeText={'Home'} ContactText={'Contact'} PackagesText={'Packages'} FacilitiesText={'Facilities'} AboutText={'About'} modetext={ModeText} mode={Mode} togglemode={togglemode}/>
 
         <Routes>
@@ -42,14 +42,14 @@ function App() {
           <Route exact path='/facilities' element={<Facilities/>} />
         </Routes>
 
-      </Router> */}
-      
-      <Navbar title={'The gym'} HomeText={'Home'} ContactText={'Contact'} PackagesText={'Packages'} FacilitiesText={'Facilities'} AboutText={'About'} modetext={ModeText} mode={Mode} togglemode={togglemode}/>
+      </Router>
+
+      {/* <Navbar title={'The gym'} HomeText={'Home'} ContactText={'Contact'} PackagesText={'Packages'} FacilitiesText={'Facilities'} AboutText={'About'} modetext={ModeText} mode={Mode} togglemode={togglemode}/>
 
       <About></About>
       <Contact></Contact>
       <Packages></Packages>
-      <Facilities></Facilities>
+      <Facilities></Facilities> */}
 
     </div>
   );
