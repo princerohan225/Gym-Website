@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: black;
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .container {
+            line-height: 45px;
+
+        }
+
+        ul {
+            list-style-type: none;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-end;
+            gap: 25px;
+            background-color: rgba(102, 0, 153, 0.45);
+        }
+
+        ul li a {
+            text-decoration: none;
+            color: white;
+            position: relative;
+            right: 15px;
+        }
+
+        ul li a:hover {
+            text-decoration-line: underline;
+            text-decoration-color: rgb(197, 24, 209);
+            text-decoration-thickness: 18%;
+            color: rgba(188, 26, 209, 0.753);
+            transition: 1.5s all ease;
+        }
+        
+        .active{
+            border-radius: 10px;
+            padding: 5px;
+            background-color: white;
+            color: black;
+        }
+
+        .container2{
+            border: none;
+            border-radius: 10px;
+            background-color: gray;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        input[type=text],select,textarea{
+            width: 100%;
+            resize: vertical;
+            border-radius: 10px;
+            border: none;
+            padding: 10px;
+            margin: 10px 0px;
+        }
+
+        input[type=email]{
+            width: 100%;
+            border-radius: 10px;
+            padding: 10px;
+            border: none;
+            margin: 10px 0px;
+        }
+
+        input[type=submit]{
+            padding: 8px;
+            border: none;
+            border-radius: 10px;
+            background-color: aqua;
+            cursor: pointer;
+            width: 100px;
+            display: block;
+            margin: auto;
+        }
+
+        .foot{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 10px;
+            font-weight: 500;
+        }
+
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <ul>
+            <li> <a href="The GYM.html"> World Gym</a></li>
+            <li> <a class="active" href="contact.html">Contact</a></li>
+            <li> <a href="packages.html">Packages</a></li>
+            <li> <a href="facilities.html">Facilities</a></li>
+            <li> <a href="About.html">About</a></li>
+            <li> <a href="http://">SignIn</a> </li>
+            <li> <a href="signup.html">SignUP</a></li>
+        </ul>
+
+    </div>
+
+    <div class="container2">
+        <form action="contact.html" method="post">
+            <label for="name">Name</label>
+            <input type="text" name="name" placeholder="Your Name">
+            <label for="email">Email</label>
+            <input type="email" name="email" placeholder="Your Email">
+
+            <label for="country">Country</label>
+            <select name="country" id="country">
+                <option value="australia">India</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+                <option value="india">Australia</option>
+                <option value="germany">Germany</option>
+            </select>
+
+            <label for="subject">Subject</label>
+            <textarea name="subject" id="subjext" name="subject" cols="30" rows="10" placeholder="Write Something..."></textarea>
+
+            <input type="submit" name="submit" value="Submit">
+        </form>
+
+    </div>
+
+    <div class="foot">
+        <footer>
+            <p>&copy; Rohan.in</p>
+        </footer>
+    </div>
+
+</body>
+
+</html>

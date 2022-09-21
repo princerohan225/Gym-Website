@@ -1,0 +1,49 @@
+.about_container2 {
+    border: 2px solid white;
+    border-radius: 10px;
+    margin: 20px 0px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.hello {
+    margin: 10px 0px;
+    padding: 10px 0px;
+    font-size: x-large;
+    letter-spacing: 1px;
+    color: aquamarine;
+}
+
+#bottom {
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.about {
+    color: red;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+#faci {
+    color: aquamarine;
+    font-size: x-large;
+    padding: 10px 0px;
+    letter-spacing: 1px;
+}
+
+.foot {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-weight: 500;
+}
+
+#bottom3 {
+    font-size: 15px;
+    letter-spacing: 1px;
+}

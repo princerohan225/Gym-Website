@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome To World Gym</title>
+   
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: black;
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .container {
+            line-height: 45px;
+        }
+
+        ul {
+            list-style-type: none;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-end;
+            gap: 25px;
+            background-color: rgba(102, 0, 153, 0.45);
+
+        }
+
+        ul li a {
+            text-decoration: none;
+            color: white;
+            position: relative;
+            right: 15px;
+        }
+
+        ul li a:hover {
+            text-decoration-line: underline;
+            text-decoration-color: rgb(197, 24, 209);
+            text-decoration-thickness: 18%;
+            color: rgba(188, 26, 209, 0.753);
+            transition: 1.5s all ease;
+        }
+
+
+        .section {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            top: 10px;
+            line-height: 70px;
+        }
+
+        .section h1 {
+            font-size: 2rem;
+            text-align: justify;
+        }
+
+        .section p {
+            font-size: larger;
+            text-align: center;
+        }
+
+        .section .logo {
+            width: 200px;
+            display: flex;
+            flex-wrap: wrap;
+            border-radius: 20px;
+            filter: contrast(100);
+        }
+
+
+        .container2 {
+            border: 1px solid white;
+            border-radius: 10px;
+            box-shadow: -2px -2px 3px white,
+                2px 2px 3px white;
+            margin: 20px 5px;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
+
+        .table1 {
+            width: 100%;
+        }
+
+
+        .pic1 {
+            border: 2px solid white;
+            border-radius: 10px;
+            width: 200px;
+            height: 230px;
+
+        }
+
+        .name1 {
+            font-size: x-large;
+            margin-bottom: 20px;
+            color: aquamarine;
+        }
+
+        .para1 {
+            text-align: justify;
+            text-transform: capitalize;
+            font-weight: 100;
+
+        }
+
+        .table2 {
+
+            margin-top: 15px;
+            width: 100%;
+        }
+
+        .pic2 {
+            border: 2px solid white;
+            border-radius: 10px;
+            width: 200px;
+            height: 230px;
+        }
+
+        .name2 {
+            font-size: x-large;
+            margin-bottom: 20px;
+            color: chocolate;
+        }
+
+        .para2 {
+            text-align: justify;
+            text-transform: capitalize;
+            font-weight: 100;
+        }
+
+        .count2 {
+
+            margin-left: 10px;
+        }
+
+        .table3 {
+
+            margin-top: 15px;
+            width: 100%;
+        }
+
+        .pic3 {
+            border: 2px solid white;
+            border-radius: 10px;
+            width: 200px;
+            height: 230px;
+        }
+
+        .name3 {
+            font-size: x-large;
+            margin-bottom: 20px;
+            color: cyan;
+        }
+
+        .para3 {
+            text-align: justify;
+            text-transform: capitalize;
+            font-weight: 100;
+        }
+
+        .line1 {
+            height: 3px;
+            background-color: aquamarine;
+            animation-name: line-break;
+            animation-duration: 2s;
+            animation-iteration-count: 2;
+            animation-direction: alternate-reverse;
+
+
+        }
+
+        @keyframes line-break {
+            from {
+                width: 0%;
+                background-color: red;
+            }
+
+            to {
+                width: 100%;
+                background-color: antiquewhite;
+            }
+        }
+
+        .line2 {
+            height: 3px;
+            background-color: aquamarine;
+            margin-top: 10px;
+        }
+
+        .line3 {
+            height: 3px;
+            background-color: aquamarine;
+            margin-top: 10px;
+        }
+
+
+        .desc {
+            display: flex;
+            flex-wrap: wrap;
+            text-align: center;
+            text-transform: capitalize;
+            font-size: large;
+            font-weight: 500;
+            margin-top: 30px;
+            padding: 20px;
+        }
+
+        .foot {
+            margin-top: 5px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            font-weight: 500;
+        }
+
+        .active {
+            border-radius: 10px;
+            padding: 5px;
+            background-color: white;
+            color: black;
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <ul>
+            <li> <a class="active" href="The GYM.html"> World Gym</a></li>
+            <li> <a href="contact.html">Contact</a></li>
+            <li> <a href="packages.html">Packages</a></li>
+            <li> <a href="facilities.html">Facilities</a></li>
+            <li> <a href="About.html">About</a></li>
+            <li> <a href="http://">SignIn</a> </li>
+            <li> <a href="signup.html">SignUP</a></li>
+        </ul>
+
+    </div>
+
+    <div class="section">
+        <img class="logo" src="gym.png" alt="logo">
+        <h1>The Best Gym in the World.</h1>
+        <p>Having a perfect body requires a lot of training. Nice looking body and powerful are interconnected-and we
+            can help you with both.</p>
+    </div>
+
+    <hr class="line1">
+
+    <div class="desc">
+        <span>Personal trainers are responsible for training individuals and developing a healthy workout regimen for
+            all their clients. They often work with different muscle groups and combine this knowledge with
+            cardiovascular training to provide their clients with the best exercise program possible. They may
+            demonstrate various exercises and improve their client's technique. That's why we have the Best trainer in
+            our Gym.</span>
+    </div>
+
+    <div class="container2">
+        <table class="table1">
+            <tr>
+                <td>
+                    <h4 class="name1">Rohan (Gym Trainer)</h4>
+                    <p class="para1">“It doesn’t matter what your background is and where you come from, if you have
+                        dreams and goals, that’s all that matters.” </p>
+                </td>
+                <td><img class="pic1" src="8.jpg" alt=""></td>
+            </tr>
+        </table>
+        <hr class="line2">
+
+        <table class="table2">
+            <tr>
+                <td><img class="pic2" src="amrit.jpg" alt=""></td>
+                <td>
+                    <div class="count2">
+
+                        <h4 class="name2"> Amritpal Singh (Gym Trainer)</h4>
+                        <p class="para2">
+                            “Give yourself an even greater challenge than the one you are trying to master and you will
+                            develop the powers necessary to overcome the original difficulty.”
+                        </p>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <hr class="line3">
+
+        <table class="table3">
+            <tr>
+                <td>
+                    <h4 class="name3">Sahil Marwaha (Gym Trainer)</h4>
+                    <p class="para3">“There may be people that have more talent than you, but there’s no excuse for
+                        anyone to work harder than you do.”</p>
+                </td>
+                <td><img class="pic3" src="sahil.jpg" alt=""></td>
+            </tr>
+        </table>
+    </div>
+
+
+
+    <div class="foot">
+        <footer>
+            <p>&copy; Rohan.in</p>
+        </footer>
+    </div>
+
+
+</body>
+
+</html>

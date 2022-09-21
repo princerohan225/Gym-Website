@@ -1,0 +1,24 @@
+.facilities_container {
+    padding: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    letter-spacing: 1px;
+    gap: 15px;
+    text-align: justify;
+    box-shadow: -2px -2px 3px white,
+        2px 2px 3px white;
+}
+
+h4 {
+    color: aquamarine;
+    margin-bottom: 10px;
+    font-size: x-large;
+    letter-spacing: 1px;
+}
+
+.foot {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-weight: 500;
+}
