@@ -1,22 +1,22 @@
 {
-  "main.css": "/princerohan225/Gym-Website/static/css/main.b2268efb.chunk.css",
-  "main.js": "/princerohan225/Gym-Website/static/js/main.d9db4313.chunk.js",
-  "main.js.map": "/princerohan225/Gym-Website/static/js/main.d9db4313.chunk.js.map",
-  "static/js/1.e7e0e04a.chunk.js": "/princerohan225/Gym-Website/static/js/1.e7e0e04a.chunk.js",
-  "static/js/1.e7e0e04a.chunk.js.map": "/princerohan225/Gym-Website/static/js/1.e7e0e04a.chunk.js.map",
-  "static/js/2.1ab15545.chunk.js": "/princerohan225/Gym-Website/static/js/2.1ab15545.chunk.js",
-  "static/js/2.1ab15545.chunk.js.map": "/princerohan225/Gym-Website/static/js/2.1ab15545.chunk.js.map",
-  "runtime~main.js": "/princerohan225/Gym-Website/static/js/runtime~main.9b53fdac.js",
-  "runtime~main.js.map": "/princerohan225/Gym-Website/static/js/runtime~main.9b53fdac.js.map",
-  "static/media/gym.png": "/princerohan225/Gym-Website/static/media/gym.265d7407.png",
-  "static/media/8.jpg": "/princerohan225/Gym-Website/static/media/8.8ceb0ede.jpg",
-  "static/media/amrit.jpg": "/princerohan225/Gym-Website/static/media/amrit.fe03ddc1.jpg",
-  "static/media/sahil.jpg": "/princerohan225/Gym-Website/static/media/sahil.1b8f1d38.jpg",
-  "static/media/cardio.png": "/princerohan225/Gym-Website/static/media/cardio.7db72216.png",
-  "static/media/strength.png": "/princerohan225/Gym-Website/static/media/strength.8c33534e.png",
-  "static/media/aerobics.png": "/princerohan225/Gym-Website/static/media/aerobics.e4857280.png",
-  "static/css/main.b2268efb.chunk.css.map": "/princerohan225/Gym-Website/static/css/main.b2268efb.chunk.css.map",
-  "index.html": "/princerohan225/Gym-Website/index.html",
-  "precache-manifest.a866db1fd6049cfc7be42cc3bc203e94.js": "/princerohan225/Gym-Website/precache-manifest.a866db1fd6049cfc7be42cc3bc203e94.js",
-  "service-worker.js": "/princerohan225/Gym-Website/service-worker.js"
+  "files": {
+    "main.css": "/princerohan225/Gym-Website/static/css/main.17c051fe.css",
+    "main.js": "/princerohan225/Gym-Website/static/js/main.3f9d9499.js",
+    "static/js/787.4159b215.chunk.js": "/princerohan225/Gym-Website/static/js/787.4159b215.chunk.js",
+    "static/media/8.jpg": "/princerohan225/Gym-Website/static/media/8.33f8d5216a8514296be8.jpg",
+    "static/media/aerobics.png": "/princerohan225/Gym-Website/static/media/aerobics.59dbbdf8cffbfc5cf622.png",
+    "static/media/cardio.png": "/princerohan225/Gym-Website/static/media/cardio.1a32996fc08a9a92984e.png",
+    "static/media/sahil.jpg": "/princerohan225/Gym-Website/static/media/sahil.7d34699d10341041255d.jpg",
+    "static/media/strength.png": "/princerohan225/Gym-Website/static/media/strength.dfa2704c9f86d1d326fe.png",
+    "static/media/amrit.jpg": "/princerohan225/Gym-Website/static/media/amrit.d4bdea39a54768968b63.jpg",
+    "static/media/gym.png": "/princerohan225/Gym-Website/static/media/gym.1fc6fced0e83a6cf41da.png",
+    "index.html": "/princerohan225/Gym-Website/index.html",
+    "main.17c051fe.css.map": "/princerohan225/Gym-Website/static/css/main.17c051fe.css.map",
+    "main.3f9d9499.js.map": "/princerohan225/Gym-Website/static/js/main.3f9d9499.js.map",
+    "787.4159b215.chunk.js.map": "/princerohan225/Gym-Website/static/js/787.4159b215.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.17c051fe.css",
+    "static/js/main.3f9d9499.js"
+  ]
 }
